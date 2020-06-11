@@ -54,11 +54,12 @@ app = Flask(__name__)
 books = pd.read_csv('data/books.csv')
 
 ## Load the Model
-try:
-	cosine_sim = joblib.load('models/cosine_sim.pkl')
-except:
-	cosine_sim = cosine_sim(books)
-	joblib.dump(cosine_sim, 'models/cosine_sim.pkl')
+cosine_sim = cosine_sim(books)
+# try:
+# 	cosine_sim = joblib.load('models/cosine_sim.pkl')
+# except:
+# 	cosine_sim = cosine_sim(books)
+# 	joblib.dump(cosine_sim, 'models/cosine_sim.pkl')
 
 
 ## Preprocess the data
