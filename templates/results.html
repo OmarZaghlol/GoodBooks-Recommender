@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h1 style="color:brown;text-align:center">GoodBooks Recommender</h1>
+</head>
+<body>
+	<div>
+	<ul>
+	{% for i in range(n) %}
+		<li>
+			<div>
+				<img src={{recommendations['image_url'][i]}}>
+			</div>
+			<div>
+				<a href={{recommendations['id'][i]}}>{{recommendations['title'][i]}} by {{recommendations['author'][i]}}</a>
+			</div>
+			<div>
+				<h4>{{recommendations['rating'][i]}}/5.0</h4>
+			</div>
+		</li>
+	{% endfor %}
+	</ul>
+	</div>
+</body>
+</html>
