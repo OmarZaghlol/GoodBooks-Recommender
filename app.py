@@ -2,7 +2,7 @@
 from flask import Flask, url_for, request, render_template, jsonify, json
 
 ## ML packages
-from sklearn.externals import joblib
+#from sklearn.externals import joblib
 import numpy as np
 import pandas as pd
 from cosine_sim import *
