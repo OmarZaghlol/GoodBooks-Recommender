@@ -11,7 +11,7 @@ This Project is splitted into 3 parts:
     - Build a web app to try some recommendations from our algorithms.
     
 **Note:** To run the web app
-    - from `start` open `Anaconda Prompt`
-    - then go to the project directory using `cd` command
-    - type `python app.py`
-    - finally, in a new tab in your browser, go to `http://127.0.0.1:5000/` and Enjoy!
+- from `start` open `Anaconda Prompt`
+- then go to the project directory using `cd` command
+- type `python app.py`
+- finally, in a new tab in your browser, go to `http://127.0.0.1:5000/` and Enjoy!
