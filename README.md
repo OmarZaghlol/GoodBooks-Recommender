@@ -15,3 +15,7 @@ This Project is splitted into 3 parts:
 - then go to the project directory using `cd` command
 - type `python app.py`
 - finally, in a new tab in your browser, go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) and Enjoy!
+
+You can also view and upvote my project on Kaggle: 
+- Part I: https://lnkd.in/gyDeQEW
+- Part II: https://lnkd.in/g-HJABf
